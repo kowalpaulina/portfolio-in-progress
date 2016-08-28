@@ -1,4 +1,9 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
+/*Paulina Kowal portfolio site*/
+
+
+
+/* RESET:  
+http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 
@@ -52,7 +57,7 @@ table {
 article, aside, figure, footer, header, hgroup,
 menu, nav, section { display: block; }
 
-/* MÓJ KOD */
+/* MY CODE*/
 
 
 * {
@@ -89,7 +94,6 @@ i {
 	font-size: 300%;
 }
 
-
 h1 {
 	color: #fff;
 	font-size: 240%;
@@ -97,8 +101,11 @@ h1 {
 	word-spacing:4px;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-    font-family: 'Alegreya Sans', sans-serif;
+    font-family: 'Arial', sans-serif;
+    /*font-family: 'Alegreya Sans', sans-serif;*/
 }
+    
+    
 
 
 h2 {
@@ -110,9 +117,6 @@ h2 {
     letter-spacing: 1px;
     word-spacing: 2.5px;
 }
-
-
-
 
 /* NAV */
 
@@ -140,10 +144,7 @@ nav li a {
 	transition: color 0.5s;
 	-webkit-transition: color 0.5s;
 	font-size: 90%;
-    
 }
-
-
 
 .mobile-circle-menu {
 	display: none;
@@ -155,8 +156,6 @@ nav li a {
 .mobile-circle-menu i {
 	color: #fff;
 }
-
-
 
 /* NAWIGACJA PRZEWIJANA */
 
@@ -172,8 +171,7 @@ nav li a {
 }
 
 .move .main-nav li a {
-	color: #114B5F;
-    
+	color: #114B5F;   
 }
 
 .move .main-nav {
@@ -183,9 +181,7 @@ nav li a {
 	margin-top: 0;
 }
 
-
-
-/* STRONA TYTULOWA */
+/* TITLE SITE */
 
 .first {
 	background-color: #3D6980;
@@ -238,12 +234,10 @@ p {
     line-height: 160%
 }
 
-
 .competence {
     background-color: #028090;
     color: #fff;
 }
-
 
 .projects {
     
@@ -267,8 +261,6 @@ p {
 	padding: 100px 0 60px 0;
     color: #fff;
 }
-
-
 
 .me-title:after, .skill-title:after, .projects-title:after, .contact-title:after, .mentors-title:after { 
     display: block;
@@ -303,7 +295,7 @@ span {
 }
 
 
-/* about ME SECTION */
+/* ABOUT ME SECTION */
 
 .photo {
     max-width: 20%;
@@ -335,13 +327,9 @@ span {
     margin-right: 1.5em;
 }
 
-
-
 .beginnings, .future {
    padding-top: 3%;  
 }
-
-
 
 .competence h3 {
     margin-bottom: 2%;
@@ -389,8 +377,6 @@ span {
 .silesia-project {
     margin-top: 2%;}
 
-
-
 .project-icons {
     max-width: 15%;
     display: inline-block;
@@ -408,7 +394,6 @@ span {
     color: #3F3F3F;
     letter-spacing: 0.2px;
 }
-
 
 img {
     max-width: 100%;
@@ -432,12 +417,7 @@ figcaption {
      text-transform: none;
 }
 
-
-
-
-
 /* MENTORS */
-
 
 .mentors-photo {
     float: left;
@@ -447,13 +427,11 @@ figcaption {
 }
 
 .mentors-photo:last-child {
-    margin-right: 0;
-    
+    margin-right: 0;  
 }
 
 .mentors-photo img {
-    border-radius: 10px;
-    
+    border-radius: 10px;   
 }
 .overlay {
     display: none;
@@ -500,11 +478,9 @@ figcaption {
     margin-right: auto;
     font-size: 125%;
     text-transform: uppercase;
-    font-family: 'Alegreya Sans', sans-serif;    
-    text-decoration: none;
-    
-    letter-spacing: 0.3px;
-    
+    font-family: 'Alegreya Sans', 'Arial', sans-serif;    
+    text-decoration: none;  
+    letter-spacing: 0.3px;  
 }
 
 .contact-data p {
@@ -515,7 +491,6 @@ figcaption {
 .contact-data p:first-child {
     margin-top: 0;
 }
-
 
 .footer-social {
     width: 100%;
