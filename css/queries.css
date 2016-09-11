@@ -1,142 +1,103 @@
 @media all and (orientation: landscape and ) { 
     .contact {
-        height: 150%;
-    }
+        height: 150%;}
 }
-
-
 @media only screen and (max-width: 1200px) {
     .row {
-        margin: 0 3%;
-    }
+        margin: 0 3%;}
     
     .name {
         width: 100%;
-        padding: 0 2%;
+        padding: 0 2%;}
     }
-    
-  
-    
-}
-
 
 @media only screen and (max-width: 1160px) {
     .project-description, .tablet {
         max-width: 100%;
-        float: left;
-    }
-    
+        float: left;}
     
     .silesia-project, .name-project {
-        flex-wrap: wrap;
-    }
+        flex-wrap: wrap;}
     
     .project-description p {
-        padding-top: 0.2em;
-    }
+        padding-top: 0.2em;}
     
     .photo {
         max-width: 20%;
-        margin: 0 1em 1em 0;
+        margin: 0 1em 1em 0;}      
     }
-    
-        
-}
 
 
 @media only screen and (max-width: 1060px) {
     .mentors-photo {
         max-width: 45%;
-        margin: 60px 2% 0 0;
-}
+        margin: 60px 2% 0 0;}
     
     .overlay p {
         font-size: 110%;
-        padding: 3%;
-}
+        padding: 3%;}
 
     .overlay h3 {
         font-size: 130%;
-        padding: 3%;
-}
-    
-   
-    
-}
+        padding: 3%;}   
+    }
 
 
 @media only screen and (max-width: 1060px) {
     .overlay p {
-        font-size: 90%;
-}
+        font-size: 90%;}
 
     .overlay h3 {
-        font-size: 100%;
-}
-    
-}
+        font-size: 100%;}
+    }
 
-@media only screen and (max-width: 860px) {
-    
+@media only screen and (max-width: 860px) { 
     .contact-data, .footer-social {
-        width: 60%;
-}
+        width: 60%;}
     
      .photo {
-        max-width: 25%;
+        max-width: 25%;}
     }
-}
 
 @media only screen and (max-width: 860px) {
    .overlay p {
-        font-size: 80%;
-}
+        font-size: 80%;}
 
     .overlay h3 {
-        font-size: 90%;
-}
+        font-size: 90%;}
     
     .name h2 {
         padding-left: 10%;
-        font-size: 100%;
-    }
+        font-size: 100%;}
     
     h1 {
-        font-size: 200%;
+        font-size: 200%;}
     }
-}
-
 
 @media only screen and (max-width: 800px) {
     .skill-icons {   
         max-width: 45%;
         margin-right: 1em;
-        margin-top: 0.5em;
-}
-    
-}
+        margin-top: 0.5em;}
+    }
 
 
 @media only screen and (max-width: 750px) {
     .main-nav {
-		display: none;
-	}
+		display: none;}
 	
 	.mobile-circle-menu {
-		display: inline-block;
-	}
+		display: inline-block;}
 	
 	.main-nav {
 		float:left;
 		margin-top: 35px;
 		margin-left: 25px;
 		border-bottom: none;
-		padding: 0px;
-	}
+		padding: 0px;}
 	
 	.main-nav li {
-		display: block;
-	}
+		display: block;}
 	
 	
 	.main-nav li a:link,
@@ -144,56 +105,42 @@
 		display: block;
 		border: 0;
 		padding: 10px 0;
-		font-size: 100%;
-	}
+		font-size: 100%;}
     
     .me, .competence, .projects, .mentors, .contact  {
         padding: 40px 0;}
-}
+    }
 
     
     
 @media only screen and (max-width: 730px) {
-    
     .contact-data, .footer-social {
-        width: 70%;
-}
+        width: 70%;}
     
     .mentors-photo {
         max-width: 100%;
-        margin: 60px 0 0 0;
-}
+        margin: 60px 0 0 0;}
     
        .mentors-photo:last-child, .mentors-photo:nth-child(2)  {
-        margin-top: 35px;
-}
+        margin-top: 35px;}
     
      .overlay p {
-            font-size: 120%;
-          }
+            font-size: 120%;}
 
     .overlay h3 {
-        font-size: 140%;
-     }
-    
+        font-size: 140%;}
     
     .silesia-project {
         margin-top: 5%;}
     
-    
     .beginnings, .future {
-         padding-top: 8%;  
-}
+         padding-top: 8%;}
     
      .photo {
-        max-width: 28%;
+        max-width: 28%;}
     }
-}
-
-
-    
+   
 @media only screen and (max-width: 620px) {
-    
     .contact-data {
         width: 90%;}
     
@@ -204,102 +151,79 @@
         padding-left: 0;}
     
     h1 {
-        font-size: 170%;
-    }
+        font-size: 170%;}
     
      .photo {
-        max-width: 33%;
-    }
+        max-width: 33%;}
     
     .skill-icons {   
         max-width: 35%;
         margin-right: 0.5em;
-        margin-top: 0.5em;
-        } 
+        margin-top: 0.5em; } 
 }
 
-
 @media only screen and (max-width: 560px) { 
-    
     h2 {
-	    font-size: 140%;
-        }
+	    font-size: 140%;}
     }
 
 @media only screen and (max-width: 500px) {
-    
     .contact-data, .footer-social {
         width: 100%;
-        font-size: 80%;
-}
+        font-size: 80%;}
     
     .social-links {
         margin-top: 12%;}
     
     .overlay p {
-            font-size: 100%;
-          }
+            font-size: 100%; }
 
     .overlay h3 {
-        font-size: 120%;
-     }
+        font-size: 120%;}
 }
-
 
 @media only screen and (max-width: 500px) {
      .overlay p {
-            font-size: 80%;
-          }
+            font-size: 80%;}
 
     .overlay h3 {
-        font-size: 100%;
-     }
-    
+        font-size: 100%;}  
 }
-
 
 @media only screen and (max-width: 430px) {
     .skill-icons {   
         max-width: 45%;
         margin-right: 0.5em;
-        margin-top: 0.5em;
-}  
+        margin-top: 0.5em;}  
     
     .projects p {
         font-size: 70%;}
     
     .project-icons {
         max-width: 30%;
-        margin-right: 0.5em;
-}
+        margin-right: 0.5em;}
     
     .silesia-project .project-icons {
-        max-width: 30%;
-}
+        max-width: 30%;}
     
      .silesia-project {
         margin-top: 9%;}
     
     .photo {
         max-width: 70%;
-        margin: 0 15% 5% 15%;
-    }
+        margin: 0 15% 5% 15%;}
     }
 
 
 @media only screen and (max-width: 360px) {
      .overlay p {
-            font-size: 70%;
-          }
+            font-size: 70%;}
 
     .overlay h3 {
-        font-size: 80%;
-     }
+        font-size: 80%;}
     
     .projects p {
-        font-size: 90%;
-   
-}
+        font-size: 90%;}
     
     .name h2 {
         font-size: 110%;
@@ -307,41 +231,23 @@
         padding-top: 6%;}
     
     h1 {
-        font-size: 140%;
-    }
+        font-size: 140%;}
     
     .contact-data, .footer-social {
         width: 100%;
-        font-size: 100%;
-}
+        font-size: 100%;}
     
-    
-       
-    
-        max-width: 70%;
-        margin: 0 15% 4%;
-    }
-    
-       
-        .skill-icons {   
+    .skill-icons {   
             max-width: 45%;
             margin-right: 4%;
-            margin-top: 0.5em;
-    } 
-    
-   
-    
+            margin-top: 0.5em;}  
 }
 
 
 @media only screen and (max-width: 290px) {
      .overlay p {
-            font-size: 65%;
-          }
+            font-size: 65%;}
 
     .overlay h3 {
-        font-size: 65%;
-     }
-  
-    
+        font-size: 65%;}   
 }
