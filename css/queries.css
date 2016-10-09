@@ -212,6 +212,9 @@
     .photo {
         max-width: 70%;
         margin: 0 15% 5% 15%;}
+    
+    figcaption {
+        font-size: 90%;}
     }
 
 
