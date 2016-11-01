@@ -318,7 +318,7 @@ span {
     margin-right: 0.2%;
     position: relative;}
 
-.silesia-project, .name-project {
+.project {
     max-width: 100%;
     -ms-display: flex;
     -webkit-display: flex;
@@ -327,7 +327,7 @@ span {
     padding: 2%;   
     border-radius: 10px;}
 
-.silesia-project {
+.project {
     margin-top: 2%;}
 
 .project-icons {
@@ -336,7 +336,7 @@ span {
     margin-top: 1em; 
     margin-right: 1em;}
 
-.silesia-project .project-icons {
+.project .project-icons {
     max-width: 15%;
 }
 
