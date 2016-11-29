@@ -8,6 +8,17 @@ $(document).ready(function(){
     overlay();
 });
 
+$(window).load(function(){
+    preloader();
+});
+
+function preloader(){
+   var overlay_preloader=$('#overlay_preloader');
+    
+      $('#overlay_preloader').addClass('loaded');
+      $('body').removeClass('loading');
+}
+
 
 
 
@@ -60,10 +71,6 @@ function scroll(){
 		
 	});
 }
-
-
-	
-
 
 /*hamburger*/
 

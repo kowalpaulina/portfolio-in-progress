@@ -75,12 +75,10 @@
     }
 
 @media only screen and (max-width: 800px) {
-    .skill-icons {   
-        max-width: 45%;
+    .skill-icons, .fun { 
         margin-right: 1em;
         margin-top: 0.5em;}
     }
-
 
 @media only screen and (max-width: 750px) {
     .main-nav {
@@ -109,9 +107,7 @@
     
     .me, .competence, .projects, .mentors, .contact  {
         padding: 40px 0;}
-    }
-
-    
+    }   
     
 @media only screen and (max-width: 730px) {
     .contact-data, .footer-social {
@@ -133,7 +129,7 @@
     .project {
         margin-top: 5%;}
     
-    .beginnings, .future {
+    .beginnings, .future, .have_fun {
          padding-top: 8%;}
     
      .photo {
@@ -156,8 +152,7 @@
      .photo {
         max-width: 33%;}
     
-    .skill-icons {   
-        max-width: 35%;
+    .skill-icons, .fun {   
         margin-right: 0.5em;
         margin-top: 0.5em; } 
 }
@@ -165,6 +160,11 @@
 @media only screen and (max-width: 560px) { 
     h2 {
 	    font-size: 140%;}
+    
+    .fun {
+        font-size: 90%;
+    }
+    
     }
 
 @media only screen and (max-width: 500px) {
@@ -188,11 +188,28 @@
 
     .overlay h3 {
         font-size: 100%;}  
+
+    .fun {
+        width: 100%;
+        height: 120px;}
+    .fun_descripton  {
+        width: 100%;
+        float: none;
+        padding: 0;}
+    
+    .fun_icons {
+        width: 100%;
+        float: none;
+        padding-bottom: -5px;}
+
+    .fun_icons a {
+        display: block;
+        margin: 0;
+        width: 15%;}    
 }
 
 @media only screen and (max-width: 430px) {
-    .skill-icons {   
-        max-width: 45%;
+    .skill-icons, .fun {   
         margin-right: 0.5em;
         margin-top: 0.5em;}  
     
@@ -215,6 +232,9 @@
     
     figcaption {
         font-size: 90%;}
+    
+    .name{
+        top:70%;}
     }
 
 
@@ -240,8 +260,7 @@
         width: 100%;
         font-size: 100%;}
     
-    .skill-icons {   
-            max-width: 45%;
+    .skill-icons, .fun {   
             margin-right: 4%;
             margin-top: 0.5em;}  
 }

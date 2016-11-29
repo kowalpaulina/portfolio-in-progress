@@ -22,7 +22,12 @@
 		<title>Paulina Kowal | Początkująca Front-end Developerka</title>
 	</head>
 	
-	<body>
+	<body class="loading">
+    <div id="overlay_preloader">
+        <div class="spinner1"></div>
+        <div class="spinner2"></div>
+        <div class="spinner3"></div>
+    </div>
 		<section class="first">
 			<header>
                 <nav role="navigation">
@@ -50,15 +55,19 @@
                     <h2>O mnie</h2>
 				</header>
 				<div class="my-description">
-				<div class="photo"><img src="img/p-kowal.jpg" alt=""></div>
-				<p>Od roku adeptka front-endu. Poruszając się do tej pory w obszarach SEO, social media, web usability, sprzedaży online     postanowiłam poznać drugą stronę Internetu. Zagłębiam się w tematykę HTML5, CSS3, jQuery, JavaScript, Bootstrap. Swoje pomysły czynię responsywnymi. Stawiam pierwsze kroki w PHP. Przede mną m.in Ajax, Gulp, Sass. Do pełni brakuje mi współpracy z profesjonalistami na co dzień. 
+				<div class="photo"><img src="img/p-kowal.jpg" itemprop="image" alt="Zdjęcie Pauliny Kowal"></div>
+                    <p>Od roku adeptka front-endu.    
+                    Zagłębiam się w tematykę <span class="important">HTML5, CSS3, jQuery, JavaScript</span>. Swoje pomysły czynię responsywnymi. Stawiam pierwsze kroki w <span class="important">PHP</span>. Przede mną m.in <span class="important">Ajax, Gulp, Sass</span>.
                     <br>
+                    Aktualnie studentka na kierunku <a href="http://paw.agh.edu.pl/" class="my_links" target="_blank">Programowanie aplikacji webowych</a> &#40;studia podyplomowe, AGH&#41;.
                     <br>
+                    <span class="important">Do pełni brakuje mi współpracy z profesjonalistami na co dzień.</span>
+                    <br><br>
                     Zapraszam do obejrzenia mojego CV na <a href="https://pl.linkedin.com/in/paulinakowal" class="my_links" target="_blank">LinkedIn</a>, przejrzenia aktywności na <a href="https://github.com/kowalpaulina" class="my_links" target="_blank">Githubie</a>. 
                     <br>
                     <br>
-				    
-                    Prywatnie <a href="http://www.biblionetka.pl/user.aspx?id=3709" target="_blank" class="my_links">czytelniczka</a>  książek wszelakich. Po godzinach spędzam czas z niemężem, menażerią (dwa młode drachy Bonnie i Clyde, ich mama - bokserka Inez, i kotka Fifi) i przyjaciółmi. Amatorka interlokucji  ;&#41; (po przełamaniu pierwszych lodów).        
+                    Mój "background" zawodowy to obszary związane z zarządzaniem przychodami &#40;revenue management&#41;, SEO, social media.
+                    Prywatnie <a href="http://www.biblionetka.pl/user.aspx?id=3709" target="_blank" class="my_links">czytelniczka</a>  książek wszelakich. Po godzinach spędzam czas z niemężem, menażerią &#40;dwa młode drachy Bonnie i Clyde, ich mama - bokserka Inez, i kotka Fifi&#41; i przyjaciółmi. Amatorka interlokucji  ;&#41; &#40;po przełamaniu pierwszych lodów&#41;.        
 				  </p>
 			    </div>
 			    <div class="icons-about">
@@ -75,23 +84,44 @@
 				</header>
 				<div class="clearfix main-skills">
                    <h3>Stosuję...</h3>
-                    <div class="skill-icons"><img src="img/icon/html.png" alt="html icon" title="HTML"></div>
-                    <div class="skill-icons"><img src="img/icon/css.png" alt="css icon" title="CSS"></div>
-                    <div class="skill-icons"><img src="img/icon/jquery.png" alt="jquery icon" title="jQuery"></div>
-                    <div class="skill-icons"><img src="img/icon/boostrap.png" alt="bootstrap icon" title="Bootstrap"></div>
-                    <div class="skill-icons"><img src="img/icon/responsive.png" alt="rwd icon" title="Responsive Web Design"></div>
+                    <div class="skill-icons front">HTML5</div>
+                    <div class="skill-icons front">CSS3</div>
+                    <div class="skill-icons front">jQuery</div>
+                    <div class="skill-icons front">Responsive Web Design</div>
+                    <div class="skill-icons front">Bootstrap</div>
 				</div>
 				<div class="clearfix beginnings">
                     <h3>Początki ...</h3>
-                    <div class="skill-icons"><img src="img/icon/javascript.png" alt="javascript icon" title="JavaScript"></div>
-                    <div class="skill-icons"><img src="img/icon/php.png" alt="php icon" title="PHP, icony by Erik Ragnar Eliasson, http://www.erikeliasson.io/"></div>
-                    <div class="skill-icons"><img src="img/icon/git.png" alt="git icon" title="GIT, Github"></div>
-                    <div class="skill-icons"><img src="img/icon/Photoshop.png" alt="html icon" title="Photoshop"></div>
+                    <div class="skill-icons front">JavaScript</div>
+                    <div class="skill-icons back">MySQL</div>
+                    <div class="skill-icons back">PHP</div>
+                    <div class="skill-icons tool">Github, Git</div>
+                    <div class="skill-icons tool">Photoshop</div>
+                    <div class="skill-icons tool">SCSS</div>
+                    <div class="skill-icons front">WAI</div>
                 </div>
                 <div class="clearfix future">
 				<h3>Wkrótce ...</h3>
-                   <div class="skill-icons"><img src="img/icon/angular-symbol.png" alt="html icon" title="Angular"></div>
-                   <div class="skill-icons"><img src="img/icon/sass.png" alt="html icon" title="SASS"></div> 
+                    <div class="skill-icons front">Ajax</div>
+                    <div class="skill-icons front">Node.js</div> 
+                    <div class="skill-icons front">Angular</div>
+                    <div class="skill-icons tool">Gulp</div>
+                </div>
+                <div class="clearfix have_fun">
+				<h3>Zabawy z kodem wszelakie...</h3>
+                   <div class="fun">
+                      <div class="fun_icons">
+                            <a href="https://github.com/kowalpaulina" target="_blank"><i class="ion-social-github"></i></a>
+                        </div>
+                       <div class="fun_description"><p>Projekty własne, projekty z kursów; PHP</p></div>
+                   </div>
+                   
+                   <div class="fun">
+                      <div class="fun_icons">
+                            <a href="http://codepen.io/pkowal/" target="_blank"><i class="ion-social-codepen"></i></a>
+                        </div>
+                       <div class="fun_description"><p>Zabawy z JS, ćwiczenia, eksperymenty</p></div>
+                   </div>
                 </div>
 			</div>
         </section>
@@ -120,10 +150,9 @@
                         <p>jQuery UI - Animate CSS</p>                       
                     </div> 
                 </div> 
-                
                 <div class="project clearfix">
                     <div class="tablet">
-                        <a href="http://www.paulinakowal.pl/revenue-management-tool/" target="_blank"><img src="img/rm.png" alt="revenue management tool image"></a>     
+                        <a href="http://www.paulinakowal.pl/revenue-management-tool/" target="_blank"><img src="img/rm-min.png" alt="revenue management tool image"></a>     
                     </div> 
                     <div class="project-description">
                         <p>Revenue Management - narzędzie dla hotelarstwa</p>
@@ -131,7 +160,6 @@
                         <p>Local storage</p>                       
                     </div> 
                 </div> 
-                
                 <div class="project clearfix">
                     <div class="tablet">   
                         <a href="http://www.paulinakowal.pl/scratchie" target="_blank"><img src="img/scratch_grey-min.jpg" alt="scratchie photo"></a>  
@@ -142,12 +170,9 @@
                         <p>HTML5 - CSS - JavaScript</p>
                         <p>Plugin André Rufferta, modyfikacja Paulina Kowal</p>
                     </div>
-                </div>   
-                
-                                    
+                </div>                       
 			</div>
-		</section>
-		
+		</section>	
         <section class="mentors clearfix s4" id="mentors" data-type="s4">
             <div class="row people" >
 			<header class="mentors-title">
@@ -157,15 +182,12 @@
                     <div class="mentors-photo">
                        <a data-title="Krzysiek Kluza" data-desc="Przyjaciel, wykładowca AGH, dziekan. Prowodyr pojawienia się  'zamieszania' front endowego w moim obszarze zainteresowań. Wielbiciel Chin. Motto: Fake it till you make it."><img src="img/krzysiek-min.jpg" alt="Krzysiek Kluza"></a> 
                     </div> 
-
                     <div class="mentors-photo">
-                       <a data-title="Ela Piotrkowska" data-desc="Malarka, informatyczka, czytelniczka. Towarzyszy mi od początku w moim mierzeniu się z tematyką programistyczną. Motywuje i dopinguje."><img src="img/ela1.jpg" alt="Elżbieta Piotrkowska"></a>
+                       <a data-title="Ela Piotrkowska" data-desc="Malarka, informatyczka, czytelniczka. Towarzyszy mi od początku w moim mierzeniu się z tematyką programistyczną. Motywuje i dopinguje."><img src="img/ela-min.jpg" alt="Elżbieta Piotrkowska"></a>
                     </div> 
-
                     <div class="mentors-photo">
                        <a data-title="Tomek Krzyszkowski" data-desc="Kipi pozytywną energią, namawia wszystkich naokoło do hackatonów ;) Entuzjastyczny, energiczny, chętnie dzieli się wiedzą. Nasza znajomość zaczęła się od programu Women in Technology 'Tech Leaders'. Android Developer."><img src="img/tomek1.png" alt="Tomek Krzyszkowski"></a>
                     </div> 
-                
                 </div>
 			</div>
 		</section>
