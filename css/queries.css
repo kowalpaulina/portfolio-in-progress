@@ -1,275 +1,145 @@
-@media all and (orientation: landscape and ) { 
-    .contact {
-        height: 150%;}
+@media all and (orientation:landscape and){.contact{height:150%;}
 }
-@media only screen and (max-width: 1200px) {
-    .row {
-        margin: 0 3%;}
-    
-    .name {
-        width: 100%;
-        padding: 0 2%;}
+@media only screen and (max-width:1200px){
+.row{margin:0 3%;}
+.name{width:100%;padding:0 2%;}
+}
+@media only screen and (max-width:1160px){
+.photo{max-width:20%;margin:0 1em 1em 0;}
+}
+@media only screen and (max-width:1060px){
+.mentors-photo{max-width:45%;margin:60px 2% 0 0;}
+.overlay p{font-size:110%;padding:3%;}
+.overlay h3{font-size:130%;padding:3%;}
+}
+@media only screen and (max-width:1060px){
+.overlay p{font-size:90%;}
+.overlay h3{font-size:100%;}
+.github-link {
+        left: 89%;
+        top: 84%;
+}
+.project-description p:last-child{
+        max-width: 80%;
     }
-
-@media only screen and (max-width: 1160px) {
-    .project-description, .tablet {
-        max-width: 100%;
-        float: left;}
-    
-    .project {
-        flex-wrap: wrap;}
-    
-    .project-description p {
-        padding-top: 0.2em;}
-    
-    .photo {
-        max-width: 20%;
-        margin: 0 1em 1em 0;}      
-    }
-
-
-@media only screen and (max-width: 1060px) {
-    .mentors-photo {
-        max-width: 45%;
-        margin: 60px 2% 0 0;}
-    
-    .overlay p {
-        font-size: 110%;
-        padding: 3%;}
-
-    .overlay h3 {
-        font-size: 130%;
-        padding: 3%;}   
-    }
-
-
-@media only screen and (max-width: 1060px) {
-    .overlay p {
-        font-size: 90%;}
-
-    .overlay h3 {
-        font-size: 100%;}
-    }
-
-@media only screen and (max-width: 860px) { 
-    .contact-data, .footer-social {
-        width: 60%;}
-    
-     .photo {
-        max-width: 25%;}
-    }
-
-@media only screen and (max-width: 860px) {
-   .overlay p {
-        font-size: 80%;}
-
-    .overlay h3 {
-        font-size: 90%;}
-    
-    .name h2 {
-        padding-left: 10%;
-        font-size: 100%;}
-    
-    h1 {
-        font-size: 200%;}
-    }
-
-@media only screen and (max-width: 800px) {
-    .skill-icons, .fun { 
-        margin-right: 1em;
-        margin-top: 0.5em;}
-    }
-
-@media only screen and (max-width: 750px) {
-    .main-nav {
-		display: none;}
-	
-	.mobile-circle-menu {
-		display: inline-block;}
-	
-	.main-nav {
-		float:left;
-		margin-top: 35px;
-		margin-left: 25px;
-		border-bottom: none;
-		padding: 0px;}
-	
-	.main-nav li {
-		display: block;}
-	
-	
-	.main-nav li a:link,
-	.main-nav li a:visited {
-		display: block;
-		border: 0;
-		padding: 10px 0;
-		font-size: 100%;}
-    
-    .me, .competence, .projects, .mentors, .contact  {
-        padding: 40px 0;}
-    }   
-    
-@media only screen and (max-width: 730px) {
-    .contact-data, .footer-social {
-        width: 70%;}
-    
-    .mentors-photo {
-        max-width: 100%;
-        margin: 60px 0 0 0;}
-    
-       .mentors-photo:last-child, .mentors-photo:nth-child(2)  {
-        margin-top: 35px;}
-    
-     .overlay p {
-            font-size: 120%;}
-
-    .overlay h3 {
-        font-size: 140%;}
-    
-    .project {
-        margin-top: 5%;}
-    
-    .beginnings, .future, .have_fun {
-         padding-top: 8%;}
-    
-     .photo {
-        max-width: 28%;}
-    }
-   
-@media only screen and (max-width: 620px) {
-    .contact-data {
-        width: 90%;}
-    
-    .social-links {
-        margin-top: 8%;}
-    
-    .name h2 {
-        padding-left: 0;}
-    
-    h1 {
-        font-size: 170%;}
-    
-     .photo {
-        max-width: 33%;}
-    
-    .skill-icons, .fun {   
-        margin-right: 0.5em;
-        margin-top: 0.5em; } 
+}
+@media only screen and (max-width:860px){
+.contact-data, .footer-social{width:60%;}
+.photo{max-width:25%;}
 }
 
-@media only screen and (max-width: 560px) { 
-    h2 {
-	    font-size: 140%;}
-    
-    .fun {
-        font-size: 90%;
-    }
-    
-    }
-
-@media only screen and (max-width: 500px) {
-    .contact-data, .footer-social {
-        width: 100%;
-        font-size: 80%;}
-    
-    .social-links {
-        margin-top: 12%;}
-    
-    .overlay p {
-            font-size: 100%; }
-
-    .overlay h3 {
-        font-size: 120%;}
+@media only screen and (max-width:860px){
+.overlay p{font-size:80%;}
+.overlay h3{font-size:90%;}
+.name h2{padding-left:10%;font-size:100%;}
+h1{font-size:200%;}
 }
 
-@media only screen and (max-width: 500px) {
-     .overlay p {
-            font-size: 80%;}
-
-    .overlay h3 {
-        font-size: 100%;}  
-
-    .fun {
-        width: 100%;
-        height: 120px;}
-    .fun_descripton  {
-        width: 100%;
-        float: none;
-        padding: 0;}
+@media only screen and (max-width:800px){
+    .first{background-color:#3D6980;background-image:url(../img/jeshoots-woman-min-small.jpg);
+    background-image:-webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/jeshoots-woman-min-small.jpg);background-image:linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/jeshoots-woman-min-small.jpg);}
     
-    .fun_icons {
+.skill-icons, .fun{margin-right:1em;margin-top:0.5em;}
+.websites{
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;}
+    .project{
         width: 100%;
-        float: none;
-        padding-bottom: -5px;}
-
-    .fun_icons a {
-        display: block;
-        margin: 0;
-        width: 15%;}    
+    }
+    .github-link {
+        left: 94%;
+        top: 88%;
 }
 
-@media only screen and (max-width: 430px) {
-    .skill-icons, .fun {   
-        margin-right: 0.5em;
-        margin-top: 0.5em;}  
-    
-    .projects p {
-        font-size: 70%;}
-    
-    .project-icons {
-        max-width: 30%;
-        margin-right: 0.5em;}
-    
-    .project .project-icons {
-        max-width: 30%;}
-    
-     .project {
-        margin-top: 9%;}
-    
-    .photo {
-        max-width: 70%;
-        margin: 0 15% 5% 15%;}
-    
-    figcaption {
-        font-size: 90%;}
-    
-    .name{
-        top:70%;}
-    }
-
-
-@media only screen and (max-width: 360px) {
-     .overlay p {
-            font-size: 70%;}
-
-    .overlay h3 {
-        font-size: 80%;}
-    
-    .projects p {
-        font-size: 90%;}
-    
-    .name h2 {
-        font-size: 110%;
-        font-weight: 500;
-        padding-top: 6%;}
-    
-    h1 {
-        font-size: 140%;}
-    
-    .contact-data, .footer-social {
-        width: 100%;
-        font-size: 100%;}
-    
-    .skill-icons, .fun {   
-            margin-right: 4%;
-            margin-top: 0.5em;}  
+}
+@media only screen and (max-width:750px){.main-nav{display:none;}
+.mobile-circle-menu{display:inline-block;}
+.main-nav{float:left;margin-top:35px;margin-left:25px;border-bottom:none;padding:0px;}
+.main-nav li{display:block;}
+.main-nav li a:link,
+.main-nav li a:visited{display:block;border:0;padding:10px 0;font-size:100%;}
+.me, .competence, .projects, .mentors, .contact{padding:40px 0;}
+}
+@media only screen and (max-width:730px){.contact-data, .footer-social{width:70%;}
+.mentors-photo{max-width:100%;margin:60px 0 0 0;}
+.mentors-photo:last-child, .mentors-photo:nth-child(2){margin-top:35px;}
+.overlay p{font-size:120%;}
+.overlay h3{font-size:140%;}
+.project{margin-top:3%;}
+.beginnings, .future, .have_fun{padding-top:8%;}
+.photo{max-width:28%;}
+}
+@media only screen and (max-width:730px){
+    .github-link {
+        left: 94%;
+        top: 89%;
+}
 }
 
 
-@media only screen and (max-width: 290px) {
-     .overlay p {
-            font-size: 65%;}
+@media only screen and (max-width:620px){.contact-data{width:90%;}
+.social-links{margin-top:8%;}
+.name h2{padding-left:0;}
+h1{font-size:170%;}
+.photo{max-width:33%;}
+.skill-icons, .fun{margin-right:0.5em;margin-top:0.5em;}
+}
 
-    .overlay h3 {
-        font-size: 65%;}   
+@media only screen and (max-width:600px){
+    .github-link {
+        left: 93%;
+        top: 88%;
+}
+}
+@media only screen and (max-width:560px){h2{font-size:140%;}
+.fun{font-size:90%;}
+}
+@media only screen and (max-width:500px){.contact-data, .footer-social{width:100%;font-size:80%;}
+.social-links{margin-top:12%;}
+.overlay p{font-size:100%;}
+.overlay h3{font-size:120%;}
+}
+@media only screen and (max-width:500px){.overlay p{font-size:80%;}
+.overlay h3{font-size:100%;}
+.fun{width:100%;height:120px;}
+.fun_descripton{width:100%;float:none;padding:0;}
+.fun_icons{width:100%;float:none;padding-bottom:-5px;}
+.fun_icons a{display:block;margin:0;width:15%;}
+    
+        .github-link {
+            left: 92%;
+            top: 87%;
+}
+}
+@media only screen and (max-width:430px){.skill-icons, .fun{margin-right:0.5em;margin-top:0.5em;}
+.projects p{font-size:70%;}
+.project-icons{max-width:30%;margin-right:0.5em;}
+/*.project .project-icons{max-width:30%;}*/
+.project{margin-top:5%;}
+.photo{max-width:70%;margin:0 15% 5% 15%;}
+figcaption{font-size:90%;}
+.name{top:70%;}
+    
+    .github-link {
+            left: 90%;
+            top: 84%;
+}
+}
+@media only screen and (max-width:360px){.overlay p{font-size:70%;}
+.overlay h3{font-size:80%;}
+.project-description p{font-size:100%;}
+.name h2{font-size:110%;font-weight:500;padding-top:6%;}
+h1{font-size:140%;}
+.contact-data, .footer-social{width:100%;font-size:100%;}
+.skill-icons, .fun{margin-right:4%;margin-top:0.5em;}
+    
+        .github-link {
+            left: 87%;
+            top: 85%;
+}
+}
+@media only screen and (max-width:290px){.overlay p{font-size:65%;}
+.overlay h3{font-size:65%;}
 }
