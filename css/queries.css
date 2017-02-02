@@ -15,10 +15,7 @@
 @media only screen and (max-width:1060px){
 .overlay p{font-size:90%;}
 .overlay h3{font-size:100%;}
-.github-link {
-        left: 89%;
-        top: 84%;
-}
+
 .project-description p:last-child{
         max-width: 80%;
     }
@@ -48,10 +45,6 @@ h1{font-size:200%;}
     .project{
         width: 100%;
     }
-    .github-link {
-        left: 94%;
-        top: 88%;
-}
 
 }
 @media only screen and (max-width:750px){.main-nav{display:none;}
@@ -71,12 +64,6 @@ h1{font-size:200%;}
 .beginnings, .future, .have_fun{padding-top:8%;}
 .photo{max-width:28%;}
 }
-@media only screen and (max-width:730px){
-    .github-link {
-        left: 94%;
-        top: 89%;
-}
-}
 
 
 @media only screen and (max-width:620px){.contact-data{width:90%;}
@@ -87,12 +74,6 @@ h1{font-size:170%;}
 .skill-icons, .fun{margin-right:0.5em;margin-top:0.5em;}
 }
 
-@media only screen and (max-width:600px){
-    .github-link {
-        left: 93%;
-        top: 88%;
-}
-}
 @media only screen and (max-width:560px){h2{font-size:140%;}
 .fun{font-size:90%;}
 }
@@ -108,10 +89,6 @@ h1{font-size:170%;}
 .fun_icons{width:100%;float:none;padding-bottom:-5px;}
 .fun_icons a{display:block;margin:0;width:15%;}
     
-        .github-link {
-            left: 92%;
-            top: 87%;
-}
 }
 @media only screen and (max-width:430px){.skill-icons, .fun{margin-right:0.5em;margin-top:0.5em;}
 .projects p{font-size:70%;}
@@ -121,11 +98,6 @@ h1{font-size:170%;}
 .photo{max-width:70%;margin:0 15% 5% 15%;}
 figcaption{font-size:90%;}
 .name{top:70%;}
-    
-    .github-link {
-            left: 90%;
-            top: 84%;
-}
 }
 @media only screen and (max-width:360px){.overlay p{font-size:70%;}
 .overlay h3{font-size:80%;}
@@ -134,12 +106,13 @@ figcaption{font-size:90%;}
 h1{font-size:140%;}
 .contact-data, .footer-social{width:100%;font-size:100%;}
 .skill-icons, .fun{margin-right:4%;margin-top:0.5em;}
-    
-        .github-link {
-            left: 87%;
-            top: 85%;
 }
+
+@media only screen and (max-width:320px){
+    .external-links{
+        width: 70%;}
 }
+
 @media only screen and (max-width:290px){.overlay p{font-size:65%;}
 .overlay h3{font-size:65%;}
 }

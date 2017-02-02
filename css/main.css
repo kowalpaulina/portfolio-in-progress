@@ -121,18 +121,22 @@ img {
     /*border-top-left-radius: 13px;
     border-top-right-radius: 13px;*/}
 
-.project-description p:first-child {
+.project-description p:first-of-type {
     font-weight: 500;
 }
 
-.github-link {
-    position: absolute;
-    left: 92%;
-    top: 87%;
-    
+.external-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    padding: 15px 0;
+    width: 40%;
+    margin: 0 auto;
 }
 
-.ion-social-github-link{
+.ion-social-external-link{
     font-size: 190%;
     color: #114B5F;
 }
