@@ -45,7 +45,7 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
         }else{
             
             
-            $to = 'kowalpaulina@gmail.com';
+            $to = 'incognitosilesia@gmail.com';
             $subject = 'Wiadomość ze strony portfolio od ' .$_POST['fname'];
             $message = $_POST['message'];
             $headers = 'From: ' . $_POST['email'] . "\r\n" .

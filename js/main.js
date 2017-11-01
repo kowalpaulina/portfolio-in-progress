@@ -7,6 +7,8 @@ $(document).ready(function(){
     hamburger();
     overlay();
     cookieVisibility();
+    resizeWindow();
+    filterByProjects();
 });
 
 var heightNav=$('.main-nav').height(); //wys_nav
@@ -38,7 +40,7 @@ function move(){
 
 function mark(){
     $(window).scroll(function(){
-        var topHeight=$(window).scrollTop()+heightNav+5; //wys_top
+        var topHeight=$(window).scrollTop()+heightNav+5; 
         $('section').each(function(){
             if(nav.hasClass('move'))
                 if(topHeight>=$(this).offset().top){
@@ -50,8 +52,8 @@ function mark(){
 function scroll(){
     $('.btn').on('click',function(){
         var button=$(this).attr('id');
-        var btnOffset=$('.'+button).offset().top; //miejsce
-        var placeToScroll=btnOffset-=heightNav+1; //place_nav_wys
+        var btnOffset=$('.'+button).offset().top; 
+        var placeToScroll=btnOffset-=heightNav+1; 
         $('body, html').animate({scrollTop:placeToScroll+'px'},1200);
         return false;});}
 
@@ -64,6 +66,17 @@ function hamburger(){
         }else{
             icon.removeClass('ion-android-close');
             icon.addClass('ion-navicon');}});}
+
+function resizeWindow(){
+    $(window).resize(function(){
+        if(($(window).width())>750){
+            $('.main-nav').css("display","block");
+        }else{
+            $('.main-nav').css("display","none");
+        }
+    });
+}
+
 
 function overlay(){
     $('.mentors-photo').on('mouseenter touchstartbtap',function(){
@@ -207,4 +220,33 @@ if(CookieDetails.hasClass("in-active")){
         CookieDetails.removeClass("in-active");
     });
 }
+}
+
+
+
+function filterByProjects(){
+    var navElement = $('.projectsNavigation a');
+    $('.projectsNavigation li:last-child').addClass('currentNavProject');
+    navElement.on('mouseenter', function(){
+        
+        $('.projectsNavigation li').removeClass('currentNavProject');
+        $(this).parent().addClass('currentNavProject');
+        
+        var category = $(this).data('project');
+        console.log(category);
+        
+        if(category == 'all-projects'){
+            $('.websites .project').fadeIn(1000);                
+        } else {
+            $('.websites .project').each(function(){
+                if($(this).hasClass(category)){
+                    $(this).fadeIn(1000);
+                } else {
+                    $(this).hide();
+                }
+            });
+        }
+        //stop link behaviour
+        return false;
+    });
 }
