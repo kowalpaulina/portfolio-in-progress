@@ -151,14 +151,24 @@ p{line-height:30px;text-align:justify;font-weight:400;}
     font-size:230%;
     color: #114B5F;}
 
-.mentors-photo{float:left;max-width:30%;margin-right:3%;position:relative;}
+    .mentor-container{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+.mentors-photo{
+    max-width:30%;
+    position:relative;
+}
+
 .mentors-photo:last-child{margin-right:0;}
-.mentors-photo img{border-radius:10px;
-max-width: 100%;}
-.mentors-photo:last-child{
-    padding: 7% 1%;
-    border: 1px solid #fff;
+
+.mentors-photo img{
     border-radius:10px;
+    max-width: 100%;
+    border: 1px solid #fff;
 }
 
 

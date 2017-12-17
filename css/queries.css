@@ -4,11 +4,20 @@
 .row{margin:0 3%;}
 .name{width:100%;padding:0 2%;}
 }
-@media only screen and (max-width:1160px){
-.photo{max-width:20%;margin:0 1em 1em 0;}
+
+@media(max-width: 1100px){
+    .mentor-container{
+        flex-direction: column;
+    }
+
+
+    .mentors-photo{
+        max-width: 60%;
+    }
 }
+
 @media only screen and (max-width:1060px){
-.mentors-photo{max-width:45%;margin:60px 2% 0 0;}
+
 .overlay p{font-size:110%;padding:3%;}
 .overlay h3{font-size:130%;padding:3%;}
 }
@@ -219,9 +228,6 @@ h1{font-size:140%;}
         text-align: center;
         margin-bottom: 25px;
     }
-    
-    .mentors-photo:last-child{
-        padding: 10% 2%;}
 }
 
 @media only screen and (max-width:330px){ 
